@@ -1,0 +1,51 @@
+[
+    {
+        "key": "desarrollo",
+        "heading": "Fullstack",
+        "imageUrl": "ruta/a/imagen1.jpg",
+        "paragraph": "Proyectos Fullstack | Ingeniería de software",
+        "estilo": "style1"
+    },
+    {
+        "key": "articulos",
+        "heading": "Artículos",
+        "imageUrl": "ruta/a/imagen2.jpg",
+        "paragraph": "Escritos de mi autoría referentes a tecnología",
+        "estilo": "style3"
+    },
+    {
+        "key": "docencia",
+        "heading": "Docencia",
+        "imageUrl": "ruta/a/imagen2.jpg",
+        "paragraph": "He impartido algunos cursos docentes en algunas instituciones educativas de México",
+        "estilo": "style2"
+    },
+    {
+        "key": "conferencias",
+        "heading": "Conferencias",
+        "imageUrl": "ruta/a/imagen3.jpg",
+        "paragraph": "Participación como ponente en conferencias",
+        "estilo": "style4"
+    },
+    {
+        "key": "programacion",
+        "heading": "Programación",
+        "imageUrl": "ruta/a/imagen2.jpg",
+        "paragraph": "Proyectos de código en general, especialmente retos de algoritmos y competencias",
+        "estilo": "style5"
+    },
+    {
+        "key": "bounty",
+        "heading": "Bug Bounty",
+        "imageUrl": "ruta/a/imagen4.jpg",
+        "paragraph": "Recompensas obtenidas por encontrar brechas de seguridad (Público)",
+        "estilo": "style1"
+    },
+    {
+        "key": "ctf",
+        "heading": "Captura la bandera",
+        "imageUrl": "ruta/a/imagen4.jpg",
+        "paragraph": "Retos de captura la bandera resueltos, se incluyen reportes",
+        "estilo": "style2"
+    }
+]
