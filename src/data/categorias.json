@@ -1,51 +1,51 @@
 [
     {
-        "key": "desarrollo",
+        "llave": "desarrollo",
         "heading": "Fullstack",
-        "imageUrl": "ruta/a/imagen1.jpg",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/Proyecto4.png?alt=media&token=560e50f5-aab5-4c9f-b3b5-e62ccc3764da",
         "paragraph": "Proyectos Fullstack | Ingeniería de software",
-        "estilo": "style1"
+        "estilo": "style4"
     },
     {
-        "key": "articulos",
+        "llave": "articulos",
         "heading": "Artículos",
-        "imageUrl": "ruta/a/imagen2.jpg",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/articulo1.png?alt=media&token=95c24df7-0557-45bb-ad2f-56cbdacf1f95",
         "paragraph": "Escritos de mi autoría referentes a tecnología",
         "estilo": "style3"
     },
     {
-        "key": "docencia",
+        "llave": "docencia",
         "heading": "Docencia",
-        "imageUrl": "ruta/a/imagen2.jpg",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/UNAM.png?alt=media&token=3cd92233-d5b1-4406-8ef2-97d8ecc6c424",
         "paragraph": "He impartido algunos cursos docentes en algunas instituciones educativas de México",
-        "estilo": "style2"
+        "estilo": "style6"
     },
     {
-        "key": "conferencias",
+        "llave": "conferencias",
         "heading": "Conferencias",
-        "imageUrl": "ruta/a/imagen3.jpg",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/conference1.jpeg?alt=media&token=4f7ffe90-4208-4e05-81e1-d0663b586861",
         "paragraph": "Participación como ponente en conferencias",
         "estilo": "style4"
     },
     {
-        "key": "programacion",
+        "llave": "programacion",
         "heading": "Programación",
-        "imageUrl": "ruta/a/imagen2.jpg",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Python_Windows_source_code_icon_2016.svg/1200px-Python_Windows_source_code_icon_2016.svg.png",
         "paragraph": "Proyectos de código en general, especialmente retos de algoritmos y competencias",
         "estilo": "style5"
     },
     {
-        "key": "bounty",
+        "llave": "bounty",
         "heading": "Bug Bounty",
-        "imageUrl": "ruta/a/imagen4.jpg",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/BugBounty1.png?alt=media&token=2d7f0eb2-0c95-462f-8684-e2ddc4cbd523",
         "paragraph": "Recompensas obtenidas por encontrar brechas de seguridad (Público)",
-        "estilo": "style1"
+        "estilo": "style4"
     },
     {
-        "key": "ctf",
+        "llave": "ctf",
         "heading": "Captura la bandera",
-        "imageUrl": "ruta/a/imagen4.jpg",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/CTF1.png?alt=media&token=2105684b-1cf1-453e-bfc9-0db97307bf2c",
         "paragraph": "Retos de captura la bandera resueltos, se incluyen reportes",
-        "estilo": "style2"
+        "estilo": "style3"
     }
 ]

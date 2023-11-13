@@ -1,20 +1,24 @@
 import React from 'react';
 function ProjectItem(props) {
-  const { imageUrl, heading, paragraph, estilo } = props;
+  const {imageUrl, heading, paragraph, estilo, onClick } = props;
 
   return (
-    <article className={`${estilo}`}>
+      <article className={`${estilo}`} onClick={onClick}>
         <span className="image">
-        <img className="square-image"  src={imageUrl} alt="" />
-      </span>
-      <a href="generic.html">
-        <h2>{heading}</h2>
+          <img className="square-image" src={imageUrl} alt="" />
+        </span>
+        <div>        
+        <h1>{heading}</h1>
+         
         <div className="content">
-          <p>{paragraph}</p>
+          <h3>{paragraph}</h3>
         </div>
-      </a>
-    </article>
+        </div>
+
+      </article>
+    
   );
+  
 }
 
 export default ProjectItem;

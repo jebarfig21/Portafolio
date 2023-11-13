@@ -1,27 +1,46 @@
 import React from 'react';
 import NavBar from './NavBar';
-import ProjectGrid from './GridView';
+import Menu from './Menu';
 import BlogPost from './BlogPost';
-import jsonData from '../data/projects.json'; // Importa tu archivo JSON
-import jsonCategorias from '../data/categorias.json'; // Importa tu archivo JSON
-import Header from './Header';
-import InicioView from './Inicio';
-import ProjectsView from './ProjectsView';
+import GridView from './GridView';
+import jsonProjects from '../data/projects.json'; // 
+import jsonCategorias from '../data/categorias.json'; 
+import { useAppContext } from './AppContext';
 
 function Main() {
-  return (    	
-      <div id="wrapper" >
-        <NavBar/>
-        <div id="main">
-					<div className="inner">
-							<InicioView/>
-              <ProjectsView/>
+  const { view } = useAppContext();
+  let contentView;
+  
+  if (view === 'inicio') {
+    contentView = <GridView data={jsonCategorias}/>;
+  } else if (view === 'desarrollo') {
+    contentView = <GridView data={jsonProjects}/>;
+  } else if (view === 'blogLanding') {
+    contentView = <BlogPost data={jsonProjects[0]}/>;  
+  } else if (view === 'blogCrud') {
+    contentView = <BlogPost data={jsonProjects[1]}/>;  
+  } else if (view === 'blogPokemon') {
+    contentView = <BlogPost data={jsonProjects[2]}/>;  
+  } else if (view === 'blogReact') {
+    contentView = <BlogPost data={jsonProjects[3]}/>;  
+  } else if (view === 'blogCommerce') {
+    contentView = <BlogPost data={jsonProjects[4]}/>;  
+  }
+  
 
-					</div>
-          
-        </div> 
+  return (    
+    <>	
+    <div id="wrapper">
+      <NavBar />
+      <div id="main">
+        <div className="inner">
+          {contentView}
+        </div>
       </div>
-  );
+      </div>
+      <Menu/>
+      </>
+      	  );
 }
 
 export default Main;

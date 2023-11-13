@@ -1,37 +1,65 @@
 [
     {
       "id": 1,
+      "llave":"blogLanding",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/github.io.jpg?alt=media&token=a478d06f-9ce7-4dbb-b682-f4f7101a0009",
       "heading": "Landing Page",
+      "headingUrl":"https://jebarfig21.github.io/PersonalPage/",
       "paragraph": "Acercamiento a las tecnologías de Boostrap, HTML y CSS, caratula básica",
-      "estilo" : "style2"
+      "explicacion": "Este proyectó fue desarrollado para conocer y practicar los fundamentos de HTML y CSS, cuenta con un estilo muy rudimentario, colores vistosos pero poco agradables a la vista, siendo las primeras interacciones con temas de UX/UI y diseño front-end",
+      "estilo" : "style6",
+      "elementos" : ["HTML","CSS", "Boostrap"],
+      "urlGithub" : "https://github.com/jebarfig21/PersonalPage"
+
     },
     {
       "id": 2,
+      "llave":"blogCrud",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/Proyecto2.jpg?alt=media&token=a65e978a-0290-4d59-b8c7-5211a3cd085d",
       "heading": "Gestión de alumnos",
+      "headingURL": "https://jebarfig21.github.io/CRUD_Page/",
+      "explicacion": "En este proyecto se realiza una gestion de alumnos, un CRUD sencillo usando localStorage del navegador, se práctican las abses del diseño de aplicaciones y el uso de Javscript",
       "paragraph": "Conceptos básicos CRUD para Backend",
-      "estilo" : "style3"
+      "estilo" : "style3",
+      "elementos" : ["HTML","CSS", "JavaScript"],
+      "urlGithub" : "https://github.com/jebarfig21/CRUD_Page"
+
     },
     {
       "id": 3,
+      "llave":"blogPokemon",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/Proyecto3.jpg?alt=media&token=7d1f166f-779e-4378-b702-662f3478d34f",
       "heading": "Batalla Pokemon",
+      "headingURL":"https://jebarfig21.github.io/PokemonStats/public/index.html",
       "paragraph": "Ejercicio de llamadas API",
-      "estilo" : "style1"
+      "explicacion":"Es una simulación básica de una batalla Pokemon, usando llamada a la API PokeApi, así imso se implementa una API local para manipular los datos que obtenemos de pokeApi, primero apsos con servidor express y nodeJs",
+      "estilo" : "style4",
+      "elementos" : ["HTML y CSS", "nodeJS", "API", "Express"],
+      "urlGithub" : "https://github.com/jebarfig21/PokemonStats/"
     },
     {
       "id": 4,
+      "llave":"blogReact",
       "imageUrl": "https://firebasestorage.googleapis.com/v0/b/protafolio-d54aa.appspot.com/o/Proyecto4.png?alt=media&token=560e50f5-aab5-4c9f-b3b5-e62ccc3764da",
       "heading": "Restaurante",
+      "headingURL":"https://restaurant-app-lwqz.onrender.com/",
       "paragraph": "Pagina de restaurante usando React y Firebase",
-      "estilo" : "style4"
+      "explicacion":"Página integral de un restaurante, tiene todo tipo de funciones básicas, muestra el menu, y se puede reservar mesa, así mismo tiene sección de blog, es un página creada usando React",
+      "estilo" : "style5",
+      "elementos" : ["React"],
+      "urlGithub" : "https://github.com/jebarfig21/restaurant_app"
+
     },
     {
         "id": 5,
+        "llave":"blogCommerce",
         "imageUrl": "https://depor.com/resizer/8Y5zfLsxeZy9JVHWUHTOdwyZBVA=/1200x1200/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/WCTNP4ESWRCSZCDUJY5OMNH3QM.jpg",
         "heading": "E-Commerce",
+        "headingURL" : "TBD",
         "paragraph": "Venta de ATV futuristas, usando PayPal SandBox, React, Node y Mongo",
-        "estilo" : "style6"
+        "explicacion" : "Página realizada para vender cuatrimotos, teniendo un enfoque futurista, siguiendo el diseño de variso e-commerce modernos, se integran tecnologías como React, Express, PayPal SandBox",
+        "estilo" : "style3",
+        "elementos":["React", "Express", "PayPal SandBox", "ApiRest"],
+        "urlGithub" : "https://github.com/jebarfig21/ecoMobilityX"
       }
     ]

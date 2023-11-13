@@ -1,10 +1,15 @@
 import './App.css';
 import Main from './components/Main';
+import { AppProvider } from './components/AppContext';
+
 function App() {
   return (
-    <div className="App">
-      <Main/>
-    </div>
+    <AppProvider>       
+      <div className="App">
+       <Main/>
+      </div>
+    </AppProvider>
+       
   );
 }
 

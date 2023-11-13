@@ -1,16 +1,23 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
+import { useAppContext } from './AppContext';
 
 function GridView({ data }) {
+  const { changeView } = useAppContext();
+        
     return (
       <section className="tiles">
         {data.map((item, index) => (
           <ProjectItem
-            key={index} // Asegúrate de proporcionar una clave única para cada elemento en un mapa
+            key={index}
+            llave={item.llave}
             imageUrl={item.imageUrl}
             heading={item.heading}
             paragraph={item.paragraph}
-            estilo={item.estilo} // Asegúrate de que los datos en data.json tengan un campo 'style'
+            estilo={item.estilo} 
+            onClick={() => {
+              changeView(item.llave);
+            }}
           />
         ))}
       </section>

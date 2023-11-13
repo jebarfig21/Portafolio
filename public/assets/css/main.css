@@ -164,6 +164,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		
 	}
 
 	h1 {
@@ -2458,10 +2459,10 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 4px;
+		border-radius: 15px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px #585858;
-		color: #585858 !important;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -2476,6 +2477,7 @@ input, select, textarea {
 		text-overflow: ellipsis;
 		text-transform: uppercase;
 		white-space: nowrap;
+		background-color: #77A29F
 	}
 
 		input[type="submit"].icon:before,
@@ -2647,7 +2649,7 @@ input, select, textarea {
 					z-index: 2;
 				}
 
-			.tiles article > a {
+			.tiles article > div {
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2676,11 +2678,12 @@ input, select, textarea {
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
-				color: #ffffff;
+				color: #e9dede;
 				text-align: center;
 				text-decoration: none;
 				z-index: 3;
-			}
+			  }
+			  
 
 				.tiles article > a > :last-child {
 					margin: 0;
@@ -2711,23 +2714,23 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #C1DDDE;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #A0C5C0;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #4E7A7F;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #3F5465;
 			}
 
 			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
+				background-color: #77a29F;
 			}
 
 			.tiles article.style6 > .image:before {
@@ -2830,7 +2833,41 @@ input, select, textarea {
 				}
 
 		}
+/*Blog Post*/
+/* Estilo para mejorar legibilidad del texto en un fondo blanco */
+.titulo {
+	color: #3F5465; /* Color de texto: un tono oscuro de la paleta */
+	font-size: 64px; /* Tamaño del texto, ajusta según tus necesidades */
+	line-height: 1.5; /* Altura de línea para mejorar la legibilidad */
+	font-weight: bold;
+  }
+  
+  /* Otros estilos para resaltar el texto, ajusta según tus preferencias */
+  .subtitulos {
+	font-weight: bold;
+	font-size: 32px;
+	color: #3F5465;
+	text-align: left; /* Alinea el texto a la izquierda */
+  }
+  /* Estilo para un fondo de resaltado, utiliza uno de los colores de la paleta */
+  .parrafo {
+	padding: 5px; /* Ajusta el espacio interno según tus necesidades */
+	font-size: 24px;
+	color: #3F5465;
+	font-weight: bold;
+  }
 
+  .blog-post {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+  }
+  
+  .blog-post img {
+	max-width: 50%; /* Ajusta el ancho máximo de la imagen al contenedor */
+	margin: 50px 0; /* Agrega margen arriba y abajo para separar la imagen del texto */
+  }
 /* Header */
 
 	#header {
@@ -2995,7 +3032,7 @@ input, select, textarea {
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #3F5465DE;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3132,7 +3169,7 @@ input, select, textarea {
 	body.is-menu-visible #wrapper {
 		pointer-events: none;
 		cursor: default;
-		opacity: 0.25;
+		opacity: 0.85;
 	}
 
 	body.is-menu-visible #menu {
