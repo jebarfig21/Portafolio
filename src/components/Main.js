@@ -3,16 +3,24 @@ import NavBar from './NavBar';
 import Menu from './Menu';
 import BlogPost from './BlogPost';
 import GridView from './GridView';
+import Mantenimiento from './Mantenimiento';
 import jsonProjects from '../data/projects.json'; // 
 import jsonCategorias from '../data/categorias.json'; 
 import { useAppContext } from './AppContext';
-
+import Intro from './Intro';
 function Main() {
   const { view } = useAppContext();
   let contentView;
   
   if (view === 'inicio') {
-    contentView = <GridView data={jsonCategorias}/>;
+    contentView = contentView = (
+      <>
+           <Intro />
+          <GridView data={jsonCategorias} />
+        
+      </>
+  );
+    
   } else if (view === 'desarrollo') {
     contentView = <GridView data={jsonProjects}/>;
   } else if (view === 'blogLanding') {
@@ -25,6 +33,8 @@ function Main() {
     contentView = <BlogPost data={jsonProjects[3]}/>;  
   } else if (view === 'blogCommerce') {
     contentView = <BlogPost data={jsonProjects[4]}/>;  
+  }else{
+    contentView = <Mantenimiento/>
   }
   
 
@@ -32,13 +42,14 @@ function Main() {
     <>	
     <div id="wrapper">
       <NavBar />
+      <br/>
       <div id="main">
         <div className="inner">
           {contentView}
         </div>
       </div>
       </div>
-      <Menu/>
+      <Menu data={jsonCategorias} />
       </>
       	  );
 }
