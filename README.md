@@ -1,71 +1,33 @@
-# Getting Started with Create React App
+# Project Title: Personal React Portfolio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The Personal React Portfolio is a lightweight and minimalist project designed exclusively for individual use as a personal portfolio. Crafted with React, this template offers a clean and organized format to showcase my projects, skills, and experience. 
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+Clean and Minimal Design: The portfolio template adopts a clean and minimalistic design, focusing on simplicity and elegance to present your work effectively.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Project Showcase: Display your projects prominently with concise information, allowing visitors to get a quick overview of your work.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Skills Section: Highlight your skills in a dedicated section, providing a snapshot of your technical expertise.
 
-### `npm test`
+Responsive Layout: Ensure a seamless viewing experience on various devices with a responsive layout that adapts to different screen sizes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Easy Customization: Personalize the portfolio template to align with your unique style by modifying React components, adjusting styles, and updating content files.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Clone the repository to your local machine.
+Tailor the React components in the src directory to match your preferences.
+Optionally, update the skills.md file to reflect your current skill set.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
+  
+  https://portafolio-ijk6.onrender.com/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+On local enviroment just run *npm start* command
 
-### `npm run eject`
+### Note
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Portafolio
+This template is intended for individual use and does not include user authentication or features for multiple contributors. It's a straightforward solution for creating a personal online presence to showcase your portfolio and skills in a professional manner.
